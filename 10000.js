@@ -43,7 +43,7 @@ async function deleteFile(path) {
 
 async function start() {
     if (!KEY) {
-        console.log('13381169231')
+        console.log('填写电信号码后继续')
         return
     }
     // 下载最新代码
