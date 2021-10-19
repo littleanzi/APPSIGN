@@ -22,7 +22,7 @@ async function changeFiele () {
     let content = await fs.readFileSync('./10000.js', 'utf8')
     //替换各种无用信息.
     content = content.replace("\"\\n\"", "\"\"")
-    content = content.replace("中国电信", ``)
+    content = content.replace("中国电信", `13381169231`)
     content = content.replace(/==============\\ud83d\\udce3\\u7cfb\\u7edf\\u901a\\u77e5\\ud83d\\udce3==============/, ``)
     content = content.replace("\\ud83d\\udd14${this.name}, \\u5f00\\u59cb!", ``)
     content = content.replace("\\ud83d\\udd14${this.name}, \\u7ed3\\u675f! \\ud83d\\udd5b ${e} \\u79d2", ``)
