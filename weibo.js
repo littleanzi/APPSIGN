@@ -115,7 +115,7 @@ if ($request && $request.method != 'OPTIONS' && $request.url.match(/\/\d\/[a-z]+
   //const signheaderVal = JSON.stringify($request.headers)
    $.log(`token:${token}`)
   if (token) $.setdata(token, 'sy_token_wb')
-  $.msg($.name, `获取微博签到Cookie: 成功`, ``)
+  $.msg($.name, `获取微博签到Cookie: 成功`, ` 4d29f415ecf558d0b46ef09baddccce2 `)
 } else if ($request && $request.method != 'OPTIONS' && $request.url.match(/\/home\/welfare\/signin\/do\?_=[1-9]+/)) {
   const payheaderVal = JSON.stringify($request.headers)
   if (payheaderVal) $.setdata(payheaderVal,  'sy_payheader_wb')
